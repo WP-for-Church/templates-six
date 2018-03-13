@@ -315,7 +315,7 @@
 
         <div class="row">
             {foreach from=$downloads item=download}
-                <div class="col-xs-10 col-xs-offset-1">
+                <div class="col-xs-10 col-md-3">
                     <h4>{$download.title}</h4>
                     <p>
                         {$download.description}
